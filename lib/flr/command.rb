@@ -727,7 +727,7 @@ Flr recommends the following flutter resource structure schemes:
       # 在当前根目录下创建新的r.g.dart文件。
       #
 
-      r_dart_path = "#{flutter_project_root_dir}/lib/r.g.dart"
+      r_dart_path = "#{flutter_project_root_dir}/lib/generated/r.g.dart"
       r_dart_file = File.open(r_dart_path, "w")
 
       # ----- Step-10 End -----
